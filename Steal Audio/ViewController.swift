@@ -21,5 +21,25 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func tappedBtn(_ sender: Any) {
+        
+        
+        let tabbarController = UITabBarController()
+        let favVC = instaniate("FavoritesVC")
+        let favNC = UINavigationController(rootViewController: favVC)
+        let favItem = UITabBarItem(title: "Favorilerim", image: nil, selectedImage: nil)
+        favNC.tabBarItem = favItem
+        
+        let libaryVC = instaniate("LibaryVC")
+        let libaryNC = UINavigationController(rootViewController: libaryVC)
+        let libaryItem = UITabBarItem(title: "Kitablık", image: nil, selectedImage: nil)
+        libaryNC.tabBarItem  = libaryItem
+        tabbarController.viewControllers = [libaryNC, favNC]
+        
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        
+        appDelegate.window?.rootViewController = instaniate("SoundsVC")
+        
+    }
 }
 

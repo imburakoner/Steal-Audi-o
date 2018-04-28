@@ -13,6 +13,22 @@
 		0961617D20947D05005DA8B3 /* Steal_Audio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0961617B20947D05005DA8B3 /* Steal_Audio.xcdatamodeld */; };
 		0961617F20947D05005DA8B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0961617E20947D05005DA8B3 /* Assets.xcassets */; };
 		0961618220947D05005DA8B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0961618020947D05005DA8B3 /* LaunchScreen.storyboard */; };
+		0961618D20947E0A005DA8B3 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0961618C20947E0A005DA8B3 /* Storyboard.swift */; };
+		0961618F20948042005DA8B3 /* FavoritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0961618E20948042005DA8B3 /* FavoritesVC.swift */; };
+		0961619120948236005DA8B3 /* LibaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0961619020948236005DA8B3 /* LibaryVC.swift */; };
+		0961619320948682005DA8B3 /* SoundsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0961619220948682005DA8B3 /* SoundsVC.swift */; };
+		0961619520948C32005DA8B3 /* TRYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0961619420948C32005DA8B3 /* TRYViewController.swift */; };
+		0961619720948C3D005DA8B3 /* TRYYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0961619620948C3D005DA8B3 /* TRYYViewController.swift */; };
+		0961619A20948FB8005DA8B3 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0961619820948FB8005DA8B3 /* CategoryCell.swift */; };
+		0961619B20948FB8005DA8B3 /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0961619920948FB8005DA8B3 /* CategoryCell.xib */; };
+		096161A0209493CE005DA8B3 /* AudioItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0961619E209493CE005DA8B3 /* AudioItemCell.swift */; };
+		096161A1209493CE005DA8B3 /* AudioItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0961619F209493CE005DA8B3 /* AudioItemCell.xib */; };
+		09B341562094B426009A5B45 /* ServiceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B341552094B426009A5B45 /* ServiceHandler.swift */; };
+		09B341582094B47E009A5B45 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B341572094B47E009A5B45 /* Service.swift */; };
+		09B3415B2094B4A2009A5B45 /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3415A2094B4A2009A5B45 /* Audio.swift */; };
+		09B3415D2094B50A009A5B45 /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3415C2094B50A009A5B45 /* Favorite.swift */; };
+		09B3415F2094B53C009A5B45 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3415E2094B53C009A5B45 /* Category.swift */; };
+		9441A577E6E181107B8C234D /* Pods_Steal_Audio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971141D3F8EF2588B7A6E719 /* Pods_Steal_Audio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +40,24 @@
 		0961617E20947D05005DA8B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0961618120947D05005DA8B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0961618320947D05005DA8B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0961618C20947E0A005DA8B3 /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
+		0961618E20948042005DA8B3 /* FavoritesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesVC.swift; sourceTree = "<group>"; };
+		0961619020948236005DA8B3 /* LibaryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibaryVC.swift; sourceTree = "<group>"; };
+		0961619220948682005DA8B3 /* SoundsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsVC.swift; sourceTree = "<group>"; };
+		0961619420948C32005DA8B3 /* TRYViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRYViewController.swift; sourceTree = "<group>"; };
+		0961619620948C3D005DA8B3 /* TRYYViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRYYViewController.swift; sourceTree = "<group>"; };
+		0961619820948FB8005DA8B3 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		0961619920948FB8005DA8B3 /* CategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
+		0961619E209493CE005DA8B3 /* AudioItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioItemCell.swift; sourceTree = "<group>"; };
+		0961619F209493CE005DA8B3 /* AudioItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AudioItemCell.xib; sourceTree = "<group>"; };
+		09B341552094B426009A5B45 /* ServiceHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceHandler.swift; sourceTree = "<group>"; };
+		09B341572094B47E009A5B45 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		09B3415A2094B4A2009A5B45 /* Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
+		09B3415C2094B50A009A5B45 /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
+		09B3415E2094B53C009A5B45 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		2ECF8CB54D746D0B648776E6 /* Pods-Steal Audio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Steal Audio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Steal Audio/Pods-Steal Audio.debug.xcconfig"; sourceTree = "<group>"; };
+		971141D3F8EF2588B7A6E719 /* Pods_Steal_Audio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Steal_Audio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F28F540E8DA8D2211EEE2E18 /* Pods-Steal Audio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Steal Audio.release.xcconfig"; path = "Pods/Target Support Files/Pods-Steal Audio/Pods-Steal Audio.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9441A577E6E181107B8C234D /* Pods_Steal_Audio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +77,8 @@
 			children = (
 				0961617320947D05005DA8B3 /* Steal Audio */,
 				0961617220947D05005DA8B3 /* Products */,
+				5FEA5EBB21EEF9F8E70C5D5B /* Pods */,
+				90BB64052F23C7E65B7D6F4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +93,87 @@
 		0961617320947D05005DA8B3 /* Steal Audio */ = {
 			isa = PBXGroup;
 			children = (
+				09B341542094B415009A5B45 /* Service */,
+				0961619D209493B9005DA8B3 /* Cells */,
+				0961618920947DEB005DA8B3 /* Helper */,
 				0961617420947D05005DA8B3 /* AppDelegate.swift */,
 				0961617620947D05005DA8B3 /* ViewController.swift */,
+				0961618E20948042005DA8B3 /* FavoritesVC.swift */,
+				0961619220948682005DA8B3 /* SoundsVC.swift */,
+				0961619020948236005DA8B3 /* LibaryVC.swift */,
 				0961617820947D05005DA8B3 /* Main.storyboard */,
 				0961617E20947D05005DA8B3 /* Assets.xcassets */,
 				0961618020947D05005DA8B3 /* LaunchScreen.storyboard */,
 				0961618320947D05005DA8B3 /* Info.plist */,
 				0961617B20947D05005DA8B3 /* Steal_Audio.xcdatamodeld */,
+				0961619420948C32005DA8B3 /* TRYViewController.swift */,
+				0961619620948C3D005DA8B3 /* TRYYViewController.swift */,
+				0961619820948FB8005DA8B3 /* CategoryCell.swift */,
+				0961619920948FB8005DA8B3 /* CategoryCell.xib */,
 			);
 			path = "Steal Audio";
+			sourceTree = "<group>";
+		};
+		0961618920947DEB005DA8B3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0961618C20947E0A005DA8B3 /* Storyboard.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		0961619C209493AE005DA8B3 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				0961619E209493CE005DA8B3 /* AudioItemCell.swift */,
+				0961619F209493CE005DA8B3 /* AudioItemCell.xib */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		0961619D209493B9005DA8B3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0961619C209493AE005DA8B3 /* Favorites */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		09B341542094B415009A5B45 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				09B341592094B497009A5B45 /* Entities */,
+				09B341552094B426009A5B45 /* ServiceHandler.swift */,
+				09B341572094B47E009A5B45 /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		09B341592094B497009A5B45 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				09B3415A2094B4A2009A5B45 /* Audio.swift */,
+				09B3415C2094B50A009A5B45 /* Favorite.swift */,
+				09B3415E2094B53C009A5B45 /* Category.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		5FEA5EBB21EEF9F8E70C5D5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2ECF8CB54D746D0B648776E6 /* Pods-Steal Audio.debug.xcconfig */,
+				F28F540E8DA8D2211EEE2E18 /* Pods-Steal Audio.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		90BB64052F23C7E65B7D6F4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				971141D3F8EF2588B7A6E719 /* Pods_Steal_Audio.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0961618620947D05005DA8B3 /* Build configuration list for PBXNativeTarget "Steal Audio" */;
 			buildPhases = (
+				22DC9A7ADDCE1D81B60859CD /* [CP] Check Pods Manifest.lock */,
 				0961616D20947D05005DA8B3 /* Sources */,
 				0961616E20947D05005DA8B3 /* Frameworks */,
 				0961616F20947D05005DA8B3 /* Resources */,
+				CD16485FAE1F1F279E7CE652 /* [CP] Embed Pods Frameworks */,
+				FF3D1FDE37036FAF0EFBCA1B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,19 +240,90 @@
 				0961618220947D05005DA8B3 /* LaunchScreen.storyboard in Resources */,
 				0961617F20947D05005DA8B3 /* Assets.xcassets in Resources */,
 				0961617A20947D05005DA8B3 /* Main.storyboard in Resources */,
+				0961619B20948FB8005DA8B3 /* CategoryCell.xib in Resources */,
+				096161A1209493CE005DA8B3 /* AudioItemCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22DC9A7ADDCE1D81B60859CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Steal Audio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD16485FAE1F1F279E7CE652 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Steal Audio/Pods-Steal Audio-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Steal Audio/Pods-Steal Audio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF3D1FDE37036FAF0EFBCA1B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Steal Audio/Pods-Steal Audio-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0961616D20947D05005DA8B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0961619520948C32005DA8B3 /* TRYViewController.swift in Sources */,
+				09B341582094B47E009A5B45 /* Service.swift in Sources */,
+				0961618F20948042005DA8B3 /* FavoritesVC.swift in Sources */,
+				09B3415D2094B50A009A5B45 /* Favorite.swift in Sources */,
+				0961618D20947E0A005DA8B3 /* Storyboard.swift in Sources */,
 				0961617720947D05005DA8B3 /* ViewController.swift in Sources */,
 				0961617D20947D05005DA8B3 /* Steal_Audio.xcdatamodeld in Sources */,
+				09B3415F2094B53C009A5B45 /* Category.swift in Sources */,
+				09B3415B2094B4A2009A5B45 /* Audio.swift in Sources */,
 				0961617520947D05005DA8B3 /* AppDelegate.swift in Sources */,
+				0961619120948236005DA8B3 /* LibaryVC.swift in Sources */,
+				0961619320948682005DA8B3 /* SoundsVC.swift in Sources */,
+				0961619720948C3D005DA8B3 /* TRYYViewController.swift in Sources */,
+				0961619A20948FB8005DA8B3 /* CategoryCell.swift in Sources */,
+				09B341562094B426009A5B45 /* ServiceHandler.swift in Sources */,
+				096161A0209493CE005DA8B3 /* AudioItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,15 +465,13 @@
 		};
 		0961618720947D05005DA8B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ECF8CB54D746D0B648776E6 /* Pods-Steal Audio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G3ZXR45854;
 				INFOPLIST_FILE = "Steal Audio/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sailing.Steal-Audio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -300,15 +481,13 @@
 		};
 		0961618820947D05005DA8B3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F28F540E8DA8D2211EEE2E18 /* Pods-Steal Audio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G3ZXR45854;
 				INFOPLIST_FILE = "Steal Audio/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sailing.Steal-Audio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
