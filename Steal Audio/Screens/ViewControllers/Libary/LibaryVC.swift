@@ -8,8 +8,11 @@
 
 import UIKit
 
-class LibaryVC: UIViewController {
+class LibaryVC: UIViewController , LibaryView {
 
+    
+    private (set) var presenter : LibaryPresenter!
+    
     
     let cellCategory : String = "CategoryCell"
     
@@ -17,15 +20,24 @@ class LibaryVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.presenter.input.viewDidLoad()
+    }
+
+    
+    func setup() {
         self.navigationItem.title = "Kitaplık"
-        
         self.tblCategories.register(UINib(nibName: "CategoryCell", bundle: nil), forCellReuseIdentifier: "CategoryCell")
         self.tblCategories.delegate = self
         self.tblCategories.dataSource = self
         self.tblCategories.separatorStyle = .none
-        
     }
-
+    func reload() {
+        self.tblCategories.reloadData()
+    }
+    
+    func configure(presenter : LibaryPresenter) {
+        self.presenter = presenter
+    }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -57,7 +69,8 @@ class LibaryVC: UIViewController {
 extension LibaryVC : UITableViewDataSource , UITableViewDelegate {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CategoryCell") as! CategoryCell
-        
+        let model = self.presenter.output.cellDataFor(indexPath: indexPath)
+        cell.setup(model: model)
         return cell
         
     }
@@ -67,11 +80,11 @@ extension LibaryVC : UITableViewDataSource , UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return self.presenter.output.numberOfRow()
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return UITableViewAutomaticDimension
+        return 194
     }
     
     

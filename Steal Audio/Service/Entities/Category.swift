@@ -7,10 +7,21 @@
 //
 
 import Foundation
+import ObjectMapper
 
-
-class Category : NSObject , Encodable , Decodable {
-    var id : String?
-    var name : String?
-    var image : String?
+public class Category : NSObject , Mappable {
+    public var id : String?
+    public var name : String?
+    public var image : String?
+    
+    public required init?(map: Map) {
+        
+    }
+    
+    public func mapping(map: Map) {
+        id <- map["id"]
+        name <- map["name"]
+        image <- map["image"]
+    }
+    
 }

@@ -16,18 +16,30 @@
 		0961618D20947E0A005DA8B3 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0961618C20947E0A005DA8B3 /* Storyboard.swift */; };
 		0961618F20948042005DA8B3 /* FavoritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0961618E20948042005DA8B3 /* FavoritesVC.swift */; };
 		0961619120948236005DA8B3 /* LibaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0961619020948236005DA8B3 /* LibaryVC.swift */; };
-		0961619320948682005DA8B3 /* SoundsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0961619220948682005DA8B3 /* SoundsVC.swift */; };
+		0961619320948682005DA8B3 /* AppVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0961619220948682005DA8B3 /* AppVC.swift */; };
 		0961619520948C32005DA8B3 /* TRYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0961619420948C32005DA8B3 /* TRYViewController.swift */; };
 		0961619720948C3D005DA8B3 /* TRYYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0961619620948C3D005DA8B3 /* TRYYViewController.swift */; };
 		0961619A20948FB8005DA8B3 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0961619820948FB8005DA8B3 /* CategoryCell.swift */; };
 		0961619B20948FB8005DA8B3 /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0961619920948FB8005DA8B3 /* CategoryCell.xib */; };
 		096161A0209493CE005DA8B3 /* AudioItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0961619E209493CE005DA8B3 /* AudioItemCell.swift */; };
 		096161A1209493CE005DA8B3 /* AudioItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0961619F209493CE005DA8B3 /* AudioItemCell.xib */; };
-		09B341562094B426009A5B45 /* ServiceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B341552094B426009A5B45 /* ServiceHandler.swift */; };
-		09B341582094B47E009A5B45 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B341572094B47E009A5B45 /* Service.swift */; };
+		09A54CC020959EFA00ECA6F1 /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A54CBF20959EFA00ECA6F1 /* ApiRequest.swift */; };
+		09A54CC22095A17D00ECA6F1 /* Envirenmont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A54CC12095A17D00ECA6F1 /* Envirenmont.swift */; };
+		09A54CC42095A1ED00ECA6F1 /* CategoryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A54CC32095A1ED00ECA6F1 /* CategoryRequest.swift */; };
+		09A54CC62095A36800ECA6F1 /* SoundsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A54CC52095A36800ECA6F1 /* SoundsRequest.swift */; };
+		09A54CC82095A43500ECA6F1 /* FavoriteRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A54CC72095A43500ECA6F1 /* FavoriteRequest.swift */; };
+		09B341562094B426009A5B45 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B341552094B426009A5B45 /* Service.swift */; };
 		09B3415B2094B4A2009A5B45 /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3415A2094B4A2009A5B45 /* Audio.swift */; };
 		09B3415D2094B50A009A5B45 /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3415C2094B50A009A5B45 /* Favorite.swift */; };
 		09B3415F2094B53C009A5B45 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3415E2094B53C009A5B45 /* Category.swift */; };
+		09FA91AF2095B48B00497520 /* FavoriteResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FA91AE2095B48B00497520 /* FavoriteResponse.swift */; };
+		09FA91B62095BA9200497520 /* AppPresesnter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FA91B52095BA9200497520 /* AppPresesnter.swift */; };
+		09FA91B82095BA9C00497520 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FA91B72095BA9C00497520 /* AppRouter.swift */; };
+		09FA91BA2095BAAE00497520 /* FavoritesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FA91B92095BAAE00497520 /* FavoritesPresenter.swift */; };
+		09FA91BC2095BAB900497520 /* FavoritesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FA91BB2095BAB900497520 /* FavoritesRouter.swift */; };
+		09FA91BE2095BACF00497520 /* LibaryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FA91BD2095BACF00497520 /* LibaryPresenter.swift */; };
+		09FA91C02095BADA00497520 /* LibaryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FA91BF2095BADA00497520 /* LibaryRouter.swift */; };
+		09FA91C22095C0FC00497520 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FA91C12095C0FC00497520 /* UIImageView.swift */; };
 		9441A577E6E181107B8C234D /* Pods_Steal_Audio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971141D3F8EF2588B7A6E719 /* Pods_Steal_Audio.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,18 +55,30 @@
 		0961618C20947E0A005DA8B3 /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
 		0961618E20948042005DA8B3 /* FavoritesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesVC.swift; sourceTree = "<group>"; };
 		0961619020948236005DA8B3 /* LibaryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibaryVC.swift; sourceTree = "<group>"; };
-		0961619220948682005DA8B3 /* SoundsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsVC.swift; sourceTree = "<group>"; };
+		0961619220948682005DA8B3 /* AppVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVC.swift; sourceTree = "<group>"; };
 		0961619420948C32005DA8B3 /* TRYViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRYViewController.swift; sourceTree = "<group>"; };
 		0961619620948C3D005DA8B3 /* TRYYViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRYYViewController.swift; sourceTree = "<group>"; };
 		0961619820948FB8005DA8B3 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		0961619920948FB8005DA8B3 /* CategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
 		0961619E209493CE005DA8B3 /* AudioItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioItemCell.swift; sourceTree = "<group>"; };
 		0961619F209493CE005DA8B3 /* AudioItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AudioItemCell.xib; sourceTree = "<group>"; };
-		09B341552094B426009A5B45 /* ServiceHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceHandler.swift; sourceTree = "<group>"; };
-		09B341572094B47E009A5B45 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		09A54CBF20959EFA00ECA6F1 /* ApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
+		09A54CC12095A17D00ECA6F1 /* Envirenmont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Envirenmont.swift; sourceTree = "<group>"; };
+		09A54CC32095A1ED00ECA6F1 /* CategoryRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRequest.swift; sourceTree = "<group>"; };
+		09A54CC52095A36800ECA6F1 /* SoundsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsRequest.swift; sourceTree = "<group>"; };
+		09A54CC72095A43500ECA6F1 /* FavoriteRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteRequest.swift; sourceTree = "<group>"; };
+		09B341552094B426009A5B45 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		09B3415A2094B4A2009A5B45 /* Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
 		09B3415C2094B50A009A5B45 /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
 		09B3415E2094B53C009A5B45 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		09FA91AE2095B48B00497520 /* FavoriteResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteResponse.swift; sourceTree = "<group>"; };
+		09FA91B52095BA9200497520 /* AppPresesnter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPresesnter.swift; sourceTree = "<group>"; };
+		09FA91B72095BA9C00497520 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		09FA91B92095BAAE00497520 /* FavoritesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesPresenter.swift; sourceTree = "<group>"; };
+		09FA91BB2095BAB900497520 /* FavoritesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesRouter.swift; sourceTree = "<group>"; };
+		09FA91BD2095BACF00497520 /* LibaryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibaryPresenter.swift; sourceTree = "<group>"; };
+		09FA91BF2095BADA00497520 /* LibaryRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibaryRouter.swift; sourceTree = "<group>"; };
+		09FA91C12095C0FC00497520 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		2ECF8CB54D746D0B648776E6 /* Pods-Steal Audio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Steal Audio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Steal Audio/Pods-Steal Audio.debug.xcconfig"; sourceTree = "<group>"; };
 		971141D3F8EF2588B7A6E719 /* Pods_Steal_Audio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Steal_Audio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F28F540E8DA8D2211EEE2E18 /* Pods-Steal Audio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Steal Audio.release.xcconfig"; path = "Pods/Target Support Files/Pods-Steal Audio/Pods-Steal Audio.release.xcconfig"; sourceTree = "<group>"; };
@@ -93,14 +117,11 @@
 		0961617320947D05005DA8B3 /* Steal Audio */ = {
 			isa = PBXGroup;
 			children = (
+				09FA91B02095B96600497520 /* Screens */,
 				09B341542094B415009A5B45 /* Service */,
-				0961619D209493B9005DA8B3 /* Cells */,
-				0961618920947DEB005DA8B3 /* Helper */,
+				0961618920947DEB005DA8B3 /* Helper+Extensions */,
 				0961617420947D05005DA8B3 /* AppDelegate.swift */,
 				0961617620947D05005DA8B3 /* ViewController.swift */,
-				0961618E20948042005DA8B3 /* FavoritesVC.swift */,
-				0961619220948682005DA8B3 /* SoundsVC.swift */,
-				0961619020948236005DA8B3 /* LibaryVC.swift */,
 				0961617820947D05005DA8B3 /* Main.storyboard */,
 				0961617E20947D05005DA8B3 /* Assets.xcassets */,
 				0961618020947D05005DA8B3 /* LaunchScreen.storyboard */,
@@ -114,12 +135,13 @@
 			path = "Steal Audio";
 			sourceTree = "<group>";
 		};
-		0961618920947DEB005DA8B3 /* Helper */ = {
+		0961618920947DEB005DA8B3 /* Helper+Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				0961618C20947E0A005DA8B3 /* Storyboard.swift */,
+				09FA91C12095C0FC00497520 /* UIImageView.swift */,
 			);
-			path = Helper;
+			path = "Helper+Extensions";
 			sourceTree = "<group>";
 		};
 		0961619C209493AE005DA8B3 /* Favorites */ = {
@@ -139,12 +161,25 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		09A54CBE20959EEB00ECA6F1 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				09A54CBF20959EFA00ECA6F1 /* ApiRequest.swift */,
+				09A54CC32095A1ED00ECA6F1 /* CategoryRequest.swift */,
+				09A54CC52095A36800ECA6F1 /* SoundsRequest.swift */,
+				09A54CC72095A43500ECA6F1 /* FavoriteRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
 		09B341542094B415009A5B45 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				09FA91AD2095B46600497520 /* Response */,
+				09A54CBE20959EEB00ECA6F1 /* Request */,
 				09B341592094B497009A5B45 /* Entities */,
-				09B341552094B426009A5B45 /* ServiceHandler.swift */,
-				09B341572094B47E009A5B45 /* Service.swift */,
+				09B341552094B426009A5B45 /* Service.swift */,
+				09A54CC12095A17D00ECA6F1 /* Envirenmont.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -157,6 +192,63 @@
 				09B3415E2094B53C009A5B45 /* Category.swift */,
 			);
 			path = Entities;
+			sourceTree = "<group>";
+		};
+		09FA91AD2095B46600497520 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				09FA91AE2095B48B00497520 /* FavoriteResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		09FA91B02095B96600497520 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				09FA91B12095B97A00497520 /* ViewControllers */,
+				0961619D209493B9005DA8B3 /* Cells */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		09FA91B12095B97A00497520 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				09FA91B42095B9FC00497520 /* AppVC */,
+				09FA91B32095B9C300497520 /* Favorites */,
+				09FA91B22095B98900497520 /* Libary */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		09FA91B22095B98900497520 /* Libary */ = {
+			isa = PBXGroup;
+			children = (
+				0961619020948236005DA8B3 /* LibaryVC.swift */,
+				09FA91BD2095BACF00497520 /* LibaryPresenter.swift */,
+				09FA91BF2095BADA00497520 /* LibaryRouter.swift */,
+			);
+			path = Libary;
+			sourceTree = "<group>";
+		};
+		09FA91B32095B9C300497520 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				0961618E20948042005DA8B3 /* FavoritesVC.swift */,
+				09FA91B92095BAAE00497520 /* FavoritesPresenter.swift */,
+				09FA91BB2095BAB900497520 /* FavoritesRouter.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		09FA91B42095B9FC00497520 /* AppVC */ = {
+			isa = PBXGroup;
+			children = (
+				0961619220948682005DA8B3 /* AppVC.swift */,
+				09FA91B52095BA9200497520 /* AppPresesnter.swift */,
+				09FA91B72095BA9C00497520 /* AppRouter.swift */,
+			);
+			path = AppVC;
 			sourceTree = "<group>";
 		};
 		5FEA5EBB21EEF9F8E70C5D5B /* Pods */ = {
@@ -274,12 +366,16 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Steal Audio/Pods-Steal Audio-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -308,22 +404,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09A54CC42095A1ED00ECA6F1 /* CategoryRequest.swift in Sources */,
 				0961619520948C32005DA8B3 /* TRYViewController.swift in Sources */,
-				09B341582094B47E009A5B45 /* Service.swift in Sources */,
 				0961618F20948042005DA8B3 /* FavoritesVC.swift in Sources */,
+				09FA91BE2095BACF00497520 /* LibaryPresenter.swift in Sources */,
 				09B3415D2094B50A009A5B45 /* Favorite.swift in Sources */,
 				0961618D20947E0A005DA8B3 /* Storyboard.swift in Sources */,
+				09FA91BC2095BAB900497520 /* FavoritesRouter.swift in Sources */,
+				09FA91AF2095B48B00497520 /* FavoriteResponse.swift in Sources */,
 				0961617720947D05005DA8B3 /* ViewController.swift in Sources */,
+				09FA91C02095BADA00497520 /* LibaryRouter.swift in Sources */,
 				0961617D20947D05005DA8B3 /* Steal_Audio.xcdatamodeld in Sources */,
 				09B3415F2094B53C009A5B45 /* Category.swift in Sources */,
+				09FA91B82095BA9C00497520 /* AppRouter.swift in Sources */,
+				09A54CC82095A43500ECA6F1 /* FavoriteRequest.swift in Sources */,
 				09B3415B2094B4A2009A5B45 /* Audio.swift in Sources */,
+				09A54CC22095A17D00ECA6F1 /* Envirenmont.swift in Sources */,
+				09FA91C22095C0FC00497520 /* UIImageView.swift in Sources */,
+				09FA91B62095BA9200497520 /* AppPresesnter.swift in Sources */,
+				09FA91BA2095BAAE00497520 /* FavoritesPresenter.swift in Sources */,
 				0961617520947D05005DA8B3 /* AppDelegate.swift in Sources */,
 				0961619120948236005DA8B3 /* LibaryVC.swift in Sources */,
-				0961619320948682005DA8B3 /* SoundsVC.swift in Sources */,
+				0961619320948682005DA8B3 /* AppVC.swift in Sources */,
 				0961619720948C3D005DA8B3 /* TRYYViewController.swift in Sources */,
 				0961619A20948FB8005DA8B3 /* CategoryCell.swift in Sources */,
-				09B341562094B426009A5B45 /* ServiceHandler.swift in Sources */,
+				09B341562094B426009A5B45 /* Service.swift in Sources */,
 				096161A0209493CE005DA8B3 /* AudioItemCell.swift in Sources */,
+				09A54CC020959EFA00ECA6F1 /* ApiRequest.swift in Sources */,
+				09A54CC62095A36800ECA6F1 /* SoundsRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,7 +579,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G3ZXR45854;
 				INFOPLIST_FILE = "Steal Audio/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sailing.Steal-Audio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -487,7 +598,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G3ZXR45854;
 				INFOPLIST_FILE = "Steal Audio/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sailing.Steal-Audio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

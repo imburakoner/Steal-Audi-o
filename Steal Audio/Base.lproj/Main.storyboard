@@ -40,10 +40,10 @@
             </objects>
             <point key="canvasLocation" x="1064.8" y="33.733133433283363"/>
         </scene>
-        <!--SoundsVC-->
+        <!--AppVC-->
         <scene sceneID="66d-wY-jev">
             <objects>
-                <viewController storyboardIdentifier="SoundsVC" id="ZFe-fg-PTd" customClass="SoundsVC" customModule="Steal_Audio" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AppVC" id="ZFe-fg-PTd" customClass="AppVC" customModule="Steal_Audio" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="815-cu-tcu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         
-        appDelegate.window?.rootViewController = instaniate("SoundsVC")
+        appDelegate.window?.rootViewController = instaniate("AppVC")
         
     }
 }

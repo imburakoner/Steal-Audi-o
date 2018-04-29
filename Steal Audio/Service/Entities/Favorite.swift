@@ -7,9 +7,32 @@
 //
 
 import Foundation
+import ObjectMapper
 
-class Favorite : NSObject , Encodable , Decodable {
-    var songID : String?
+public class Favorite : NSObject,Mappable,Encodable  {
+    public var songID : String?
+    
     override init() {    }
+    
+    public required init?(map: Map) {
+        
+    }
+    
+    public func mapping(map: Map) {
+        songID <- map["audioID"]
+    }
+    
+    enum CodingKeys : String ,CodingKey {
+        case songID
+    }
+    
+    
+    public func encode(to encoder : Encoder) throws {
+        var container = encoder.container(keyedBy: CodingKeys.self)
+        
+        if let id = self.songID {
+            try container.encode(id, forKey: .songID)
+        }
+    }
     
 }

@@ -23,10 +23,12 @@ class CategoryCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         self.selectionStyle = .none
+        
     }
     
     func setup(model : CategoryCellModel ) {
         self.lblCategory.text  = model.name
+        self.imageView?.loadImage(url: model.image)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

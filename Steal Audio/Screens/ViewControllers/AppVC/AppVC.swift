@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SoundsVC: UIViewController {
+class AppVC: UIViewController {
     
     var pageContainer : UIPageViewController!
     var pages = [UIViewController]()
@@ -33,8 +33,13 @@ class SoundsVC: UIViewController {
         let favVC = instaniate("FavoritesVC")
         favNC = UINavigationController(rootViewController: favVC)
         
-        let libaryVC = instaniate("LibaryVC")
+        guard let libaryVC = instaniate("LibaryVC") as? LibaryVC else { return }
+        let libaryRouter = LibaryRouterImplementation(view: libaryVC)
+        let presenter = LibaryPresenterImplemetation(view: libaryVC, router: libaryRouter)
+        libaryVC.configure(presenter: presenter)
         libaryNC = UINavigationController(rootViewController: libaryVC)
+        
+        
         pages.append(libaryNC)
         pages.append(favNC)
         pageContainer = UIPageViewController(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)

@@ -7,14 +7,25 @@
 //
 
 import Foundation
+import ObjectMapper
 
 
-
-class Audio : NSObject, Encodable , Decodable {
-    var id : String?
-    var name : String?
-    var categoryID : String?
-    var soundUrl : String?
+public class Audio : Mappable  {
+    public var id : String?
+    public var name : String?
+    public var categoryID : String?
+    public var soundUrl : String?
     
-    override init() {    }
+    public required init?(map: Map) {
+        
+    }
+    
+    public func mapping(map: Map) {
+        id <- map["id"]
+        name <- map["name"]
+        categoryID <- map["categoryID"]
+        soundUrl <- map["soundUrl"]
+    }
+    
+    
 }

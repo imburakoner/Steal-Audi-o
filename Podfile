@@ -8,5 +8,7 @@ target 'Steal Audio' do
   # Pods for Steal Audio
    pod 'Alamofire', '~> 4.7'
    pod 'Kingfisher', '~> 4.0'
+   pod 'AlamofireObjectMapper', '~> 5.0'
+
 
 end
