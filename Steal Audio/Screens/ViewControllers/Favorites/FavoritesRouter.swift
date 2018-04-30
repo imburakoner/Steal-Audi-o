@@ -7,3 +7,16 @@
 //
 
 import Foundation
+
+
+protocol FavoriteRouter {
+    
+}
+
+class FavoriteRouterImplementation : FavoriteRouter {
+    fileprivate weak var view : FavoritesVC?
+    
+    init(view : FavoritesVC) {
+        self.view = view
+    }
+}

@@ -30,13 +30,16 @@ class AppVC: UIViewController {
     }
     
     func setupPageViewController() {
-        let favVC = instaniate("FavoritesVC")
+        guard let favVC = instaniate("FavoritesVC") as? FavoritesVC else { return }
+        let favRouter = FavoriteRouterImplementation(view: favVC)
+        let favPresenter = FavoritePResenterImplementation(view: favVC, router: favRouter, items : [])
+        favVC.configure(presenter: favPresenter)
         favNC = UINavigationController(rootViewController: favVC)
         
         guard let libaryVC = instaniate("LibaryVC") as? LibaryVC else { return }
         let libaryRouter = LibaryRouterImplementation(view: libaryVC)
-        let presenter = LibaryPresenterImplemetation(view: libaryVC, router: libaryRouter)
-        libaryVC.configure(presenter: presenter)
+        let libPresenter = LibaryPresenterImplemetation(view: libaryVC, router: libaryRouter)
+        libaryVC.configure(presenter: libPresenter)
         libaryNC = UINavigationController(rootViewController: libaryVC)
         
         

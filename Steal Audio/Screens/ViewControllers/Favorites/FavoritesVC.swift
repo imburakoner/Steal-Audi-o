@@ -8,22 +8,34 @@
 
 import UIKit
 
-class FavoritesVC: UIViewController {
+class FavoritesVC: UIViewController , FavoriteView{
 
     
     
     @IBOutlet weak var tblFavorites: UITableView!
     let itemCell : String = "AudioItemCell"
+    private (set) var presenter : FavoritePresenter!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+    }
+    func setup() {
         self.navigationItem.title = "Favorilerim"
         self.tblFavorites.register(UINib(nibName: itemCell, bundle: nil), forCellReuseIdentifier: itemCell)
         self.tblFavorites.delegate = self
         self.tblFavorites.dataSource = self
         self.tblFavorites.separatorStyle = .none
     }
-
+    
+    func reload() {
+        
+    }
+    
+    func configure(presenter: FavoritePresenter) {
+        self.presenter = presenter
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

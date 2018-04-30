@@ -11,13 +11,12 @@ import UIKit
 struct CategoryCellModel  {
     var id : String  = ""
     var name : String  = ""
-    var image : String = ""
     init() {    }
 }
 
 class CategoryCell: UITableViewCell {
 
-    @IBOutlet weak var imgCategory: UIImageView!
+    
     @IBOutlet weak var lblCategory: UILabel!
     
     override func awakeFromNib() {
@@ -28,7 +27,6 @@ class CategoryCell: UITableViewCell {
     
     func setup(model : CategoryCellModel ) {
         self.lblCategory.text  = model.name
-        self.imageView?.loadImage(url: model.image)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

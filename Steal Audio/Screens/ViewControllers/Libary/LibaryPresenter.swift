@@ -58,16 +58,15 @@ class LibaryPresenterImplemetation : LibaryPresenter , LibaryInput , LibaryOutpu
     
     
     func viewDidLoad() {
+        
         Service.manager.getCategories(successHandler: {[weak self] (category) in
             guard let strongSelf = self else  { return }
             category.forEach({ (category) in
                 let id = category.id ?? ""
                 let name = category.name ?? ""
-                let image = category.image ?? ""
                 var model = CategoryCellModel()
                 model.id = id
                 model.name = name
-                model.image = image
                 strongSelf.state.models.append(model)
                 
             })
@@ -91,3 +90,5 @@ class LibaryPresenterImplemetation : LibaryPresenter , LibaryInput , LibaryOutpu
     
     
 }
+
+
